@@ -44,9 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Form Validation
     const form = document.querySelector('form');
     form.addEventListener('submit', function(event) {
-      const name = form.elements['name'].value.trim();
-      const email = form.elements['email'].value.trim();
-      const message = form.elements['message'].value.trim();
+      const name = form.elements['Name'].value.trim();
+      const email = form.elements['Email'].value.trim();
+      const message = form.elements['Message'].value.trim();
   
       if (!name || !email || !message) {
         alert('Please fill in all fields.');
@@ -84,4 +84,3 @@ document.addEventListener('DOMContentLoaded', () => {
   
     window.addEventListener('scroll', checkScroll);
   });
-  
